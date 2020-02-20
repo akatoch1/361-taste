@@ -52,7 +52,7 @@ void add( int num )
     // We commented out the original code. Our code is below
     temp->next=head;
     head=temp;
-    
+    free(temp);
    // }
 }
 void addafter(int num, int loc)
